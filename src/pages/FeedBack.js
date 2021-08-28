@@ -72,7 +72,7 @@ class FeedBack extends Component {
             FeedBack:
           </h3>
           <h2 data-testid="feedback-text" className="feedback-result neonText">
-            { assertion < expectedAssertions ? 'Could be better...' : 'Nice job!' }
+            { assertion < expectedAssertions ? 'Could be better.' : 'Nice job!' }
           </h2>
           <h1
             data-testid="feedback-total-score"
