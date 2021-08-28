@@ -55,7 +55,7 @@ class Timer extends Component {
     return (
       <div>
         <h5 className="timer-text">
-          Tempo para resposta:
+          Response time:
           <span className="timer-value neonText timer-span-text">{` ${globalTime}`}</span>
         </h5>
       </div>

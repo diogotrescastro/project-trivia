@@ -56,7 +56,7 @@ class FeedBack extends Component {
         className="play-again btn-neon-red"
         onClick={ this.PlayAgainClickhandler }
       >
-        Jogar novamente
+        Play again
       </button>);
   }
 
@@ -72,7 +72,7 @@ class FeedBack extends Component {
             FeedBack:
           </h3>
           <h2 data-testid="feedback-text" className="feedback-result neonText">
-            { assertion < expectedAssertions ? 'Podia ser melhor...' : 'Mandou bem!' }
+            { assertion < expectedAssertions ? 'Could be better...' : 'Nice job!' }
           </h2>
           <h1
             data-testid="feedback-total-score"
@@ -85,7 +85,7 @@ class FeedBack extends Component {
             className="feedback-points"
           >
             { assertion }
-            <span> acertos </span>
+            <span> assertions </span>
           </h1>
           <Link to="/" style={ { textDecoration: 'none' } }>
             <div className="div-play-again">
@@ -102,7 +102,7 @@ class FeedBack extends Component {
                 data-testid="btn-ranking"
                 className="btn-neon-blue btn-ranking"
               >
-                Ver Ranking
+                Show Ranking
               </button>
             </div>
           </Link>

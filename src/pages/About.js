@@ -20,7 +20,7 @@ class About extends Component {
             type="button"
             className="btn-neon-blue back-home"
           >
-            Voltar ao Login
+            Back to Login
           </button>
         </div>
       </Link>

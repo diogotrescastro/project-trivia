@@ -15,15 +15,8 @@ class btnSetupScreen extends Component {
             data-testid="btn-settings"
             className="btn-neon-blue setup-btn"
           >
-            Configurações
+            Settings
           </button>
-          {/* <button
-            type="button"
-            data-testid="btn-settings"
-            className="btn-settings btn-neon-red"
-          >
-            Configurações
-          </button> */}
         </div>
       </Link>
     );

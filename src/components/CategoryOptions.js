@@ -1,102 +1,102 @@
 const CategoryOptions = [
   {
-    category: 'Aleatória',
+    category: 'Random',
     value: '',
   },
   {
-    category: 'Conhecimentos Gerais',
+    category: 'General knowledge',
     value: 9,
   },
   {
-    category: 'Entretenimento: Livros',
+    category: 'Entertainment: Books',
     value: 10,
   },
   {
-    category: 'Entretenimento: Filmes',
+    category: 'Entertainment: Movies',
     value: 11,
   },
   {
-    category: 'Entretenimento: Música',
+    category: 'Entertainment: Music',
     value: 12,
   },
   {
-    category: 'Entretenimento: Musicais&Teatro',
+    category: 'Entertainment: Musical & Theater',
     value: 13,
   },
   {
-    category: 'Entretenimento: Televisão',
+    category: 'Entertainment: Television',
     value: 14,
   },
   {
-    category: 'Entretenimento: VideoGame',
+    category: 'Entertainment: Video Game',
     value: 15,
   },
   {
-    category: 'Entretenimento: Jogos de Tabuleiro',
+    category: 'Entertainment: Board Games',
     value: 16,
   },
   {
-    category: 'Entretenimento: Anime Japonês & Mangás',
+    category: 'Entertainment: Japanese Anime & Manga',
     value: 31,
   },
   {
-    category: 'Entretenimento: Cartoon & Animação',
+    category: 'Entertainment: Cartoon & Animation',
     value: 32,
   },
   {
-    category: 'Entretenimento: Quadrinhos',
+    category: 'Entertainment: Comics',
     value: 29,
   },
   {
-    category: 'Ciência e Natureza',
+    category: 'Science and Nature',
     value: 17,
   },
   {
-    category: 'Ciência: Computadores',
+    category: 'Science: Computers',
     value: 18,
   },
   {
-    category: 'Ciência: Matemática',
+    category: 'Science: Mathematics',
     value: 19,
   },
   {
-    category: 'Ciência: Gadgets/Técnologia',
+    category: 'Science: Gadgets/Technology',
     value: 30,
   },
   {
-    category: 'Mitologia',
+    category: 'Mythology',
     value: 20,
   },
   {
-    category: 'Esportes',
+    category: 'Sports',
     value: 21,
   },
   {
-    category: 'Geografia',
+    category: 'Geography',
     value: 22,
   },
   {
-    category: 'História',
+    category: 'History',
     value: 23,
   },
   {
-    category: 'Política',
+    category: 'Policy',
     value: 24,
   },
   {
-    category: 'Arte',
+    category: 'Art',
     value: 25,
   },
   {
-    category: 'Celebridades',
+    category: 'Celebrities',
     value: 26,
   },
   {
-    category: 'Reino Animal',
+    category: 'Animal Kingdom',
     value: 27,
   },
   {
-    category: 'Veículos',
+    category: 'Vehicles',
     value: 28,
   },
 ];

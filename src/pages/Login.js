@@ -136,7 +136,7 @@ class Login extends Component {
           className="btn-neon-red btn-about"
           onClick={ this.aboutBtnClickHandler }
         >
-          Sobre
+          About
         </button>
         <div className="div-btn-img-about">
           <img src={ about } alt="sobre" className="btn-about-img" />

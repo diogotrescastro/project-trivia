@@ -170,7 +170,7 @@ class Questions extends Component {
                   className="btn-neon-red"
                   data-testid="btn-next"
                 >
-                  Próxima
+                  Next
                 </button>) : ''
             }
           </div>

@@ -76,9 +76,9 @@ class Setup extends Component {
         onChange={ this.selectChangeHandler }
         className="setup-btn-neon-red"
       >
-        <option value="">Aleatória</option>
-        <option value="multiple">Multipla escolha</option>
-        <option value="boolean">Verdadeiro/Falso</option>
+        <option value="">Random</option>
+        <option value="multiple">Multiple Choice</option>
+        <option value="boolean">Truth or False</option>
       </select>
     );
   }
@@ -92,9 +92,9 @@ class Setup extends Component {
         onChange={ this.selectChangeHandler }
         className="setup-btn-neon-red"
       >
-        <option value="">Aleatória</option>
-        <option value="easy">Fácil</option>
-        <option value="medium">Médio</option>
+        <option value="">Random</option>
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
         <option value="hard">Hard</option>
       </select>
     );
@@ -129,14 +129,14 @@ class Setup extends Component {
           className="btn-neon-green back-home"
           onClick={ this.confirmBtnClickHandler }
         >
-          Aplicar Configurações
+          Apply Settings
         </button>
         { appliedConfig
           ? (
             <h2
               style={ { color: 'green' } }
             >
-              Configurações Aplicadas!
+              Settings Applied!
             </h2>
           )
           : ''}
@@ -150,20 +150,20 @@ class Setup extends Component {
       <>
         <div className="header-setup">
           <img src={ setup } alt="Ranking" className="setup-img-gear" />
-          <h2 data-testid="settings-title" className="title-setup">Configurações</h2>
+          <h2 data-testid="settings-title" className="title-setup">Settings</h2>
         </div>
         <div className="options-container">
           <div className="options-setup-container">
             <label htmlFor="dificultyConfig">
-              Dificuldade:
+              Difficulty:
               {this.dificultyRender()}
             </label>
             <label htmlFor="answearConfig">
-              Tipo de resposta:
+              Answer Type:
               {this.answearTypeRender()}
             </label>
             <label htmlFor="categoryConfig">
-              Categoria:
+              Category:
               <select
                 id="categoryConfig"
                 value={ categoryConfig }
@@ -187,7 +187,7 @@ class Setup extends Component {
               data-testid="btn-go-home"
               className="btn-neon-blue back-home"
             >
-              Voltar ao login
+              Back to Login
             </button>
           </div>
         </Link>

@@ -73,7 +73,7 @@ class Ranking extends Component {
             className="btn-neon-blue back-home"
             onClick={ this.backHomeClickHandler }
           >
-            Voltar ao início
+            Back to Start
           </button>
         </div>
       </div>

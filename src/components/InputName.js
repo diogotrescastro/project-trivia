@@ -11,7 +11,7 @@ class InputName extends Component {
           id="inputName"
           data-testid="input-player-name"
           onChange={ func }
-          placeholder="Nome"
+          placeholder="Name"
           className="inputNeon-blue"
         />
       </label>

@@ -6,10 +6,10 @@ class BackToLoginGame extends Component {
     return (
       <div className="loadind-div">
         <p className="about-description">
-          Se você estiver vendo esta tela por mais de 5 segundos,
-          não encontramos nenhuma pergunta com as configurações que você escolheu!
+          If you've been viewing this screen for more than 5 seconds,
+          we didn't find any questions with the settings you chose!
           <br />
-          Volte a tela de login e escolha outras configurações!!
+          If you've been viewing this screen for more than 5 seconds, we haven't found any questions with the settings you've chosen!
         </p>
         <Link to="/" style={ { textDecoration: 'none' } }>
           <div className="setup-back-home">
@@ -18,7 +18,7 @@ class BackToLoginGame extends Component {
               data-testid="btn-go-home"
               className="btn-neon-blue back-home"
             >
-              Voltar ao login
+              Back to login
             </button>
           </div>
         </Link>

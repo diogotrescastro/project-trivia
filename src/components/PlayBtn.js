@@ -12,7 +12,7 @@ class PlayBtn extends Component {
         onClick={ func }
         className="btn-neon-red"
       >
-        Jogar
+        Play
       </button>
     );
   }
