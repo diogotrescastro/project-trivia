@@ -5,13 +5,16 @@ import {
   MODIFY_TIMER,
   MODIFY_NEXT_BTN,
   ALLOW_QUESTIONS_BTN_AFTER_NEXT_CLICK,
-
+  SEND_CONFIG_OPTIONS,
 } from '../actions/index';
 
 const INITIAL_STATE = {
   timeToRespond: 30,
   timerRunning: true,
   showNextBtn: false,
+  categoryValue: '',
+  answearType: '',
+  dificulty: '',
 };
 
 function gameMechanics(state = INITIAL_STATE, action) {
@@ -49,6 +52,13 @@ function gameMechanics(state = INITIAL_STATE, action) {
     return {
       ...state,
       allowQuestionsBtns: action.func,
+    };
+  case SEND_CONFIG_OPTIONS:
+    return {
+      ...state,
+      categoryValue: action.category,
+      answearType: action.answear,
+      dificulty: action.dificulty,
     };
 
   default:

@@ -2,10 +2,19 @@ import {
   SEND_QUESTIONS,
   QUESTION_ID_INCREASE,
   RESET_TRIVIA_QUESTIONSID_AND_PLAYED_QUESTIONS,
+  MODIFY_PLAYING_TRUE_FALSE,
+  MODIFY_PLAY_SOUND,
 
 } from '../actions';
 
-const INITIAL_STATE = { idTrivia: 0, questions: [] };
+const INITIAL_STATE = {
+  idTrivia: 0,
+  questions: [],
+  incorrectAnswears: [],
+  correctAnswears: [],
+  playing: false,
+  playSound: false,
+};
 
 function trivia(state = INITIAL_STATE, action) {
   switch (action.type) {
@@ -13,6 +22,8 @@ function trivia(state = INITIAL_STATE, action) {
     return ({
       ...state,
       questions: [...action.questions],
+      incorrectAnswears: action.incorrect,
+      correctAnswears: action.correct,
     });
   case QUESTION_ID_INCREASE:
     return ({
@@ -23,6 +34,16 @@ function trivia(state = INITIAL_STATE, action) {
     return ({
       ...state,
       idTrivia: 0,
+    });
+  case MODIFY_PLAYING_TRUE_FALSE:
+    return ({
+      ...state,
+      playing: action.bool,
+    });
+  case MODIFY_PLAY_SOUND:
+    return ({
+      ...state,
+      playSound: action.bool,
     });
 
   default:
