@@ -1,6 +1,6 @@
 # Projeto Game Trivia
 
-Desenvolvimento de um jogo de perguntas e respostas baseado no jogo **Trivia** utilizando _React e Redux_, desenvolvendo em grupo suas funcionalidades de acordo com as demanas definidas em um quadro _Kanban_. 
+Desenvolvimento de um jogo de perguntas e respostas baseado no jogo **Trivia** no formato Web, utilizando _React e Redux_, desenvolvendo em grupo suas funcionalidades de acordo com as demanas definidas em um quadro _Kanban_. 
 
  <a href="https://diogoaugusto.dev/project-trivia/">Clique aqui para conferir o Deploy.</a>
 
