@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/project-trivia/static/css/main.ae2bf66f.chunk.css",
-    "main.js": "/project-trivia/static/js/main.cac8f5de.chunk.js",
-    "main.js.map": "/project-trivia/static/js/main.cac8f5de.chunk.js.map",
+    "main.css": "/project-trivia/static/css/main.a62fa94c.chunk.css",
+    "main.js": "/project-trivia/static/js/main.58ca94d6.chunk.js",
+    "main.js.map": "/project-trivia/static/js/main.58ca94d6.chunk.js.map",
     "runtime-main.js": "/project-trivia/static/js/runtime-main.637fee17.js",
     "runtime-main.js.map": "/project-trivia/static/js/runtime-main.637fee17.js.map",
     "static/js/2.9083ebdc.chunk.js": "/project-trivia/static/js/2.9083ebdc.chunk.js",
     "static/js/2.9083ebdc.chunk.js.map": "/project-trivia/static/js/2.9083ebdc.chunk.js.map",
     "index.html": "/project-trivia/index.html",
-    "precache-manifest.e9089be85e9f81f16851fa155230c112.js": "/project-trivia/precache-manifest.e9089be85e9f81f16851fa155230c112.js",
+    "precache-manifest.31b05034fd3276b017ee0514e3da071d.js": "/project-trivia/precache-manifest.31b05034fd3276b017ee0514e3da071d.js",
     "service-worker.js": "/project-trivia/service-worker.js",
-    "static/css/main.ae2bf66f.chunk.css.map": "/project-trivia/static/css/main.ae2bf66f.chunk.css.map",
+    "static/css/main.a62fa94c.chunk.css.map": "/project-trivia/static/css/main.a62fa94c.chunk.css.map",
     "static/js/2.9083ebdc.chunk.js.LICENSE": "/project-trivia/static/js/2.9083ebdc.chunk.js.LICENSE",
     "static/media/Errou.mp3": "/project-trivia/static/media/Errou.4ba5d393.mp3",
     "static/media/ShowDoMilhaoTheme.mp3": "/project-trivia/static/media/ShowDoMilhaoTheme.2bb4c1b0.mp3",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.637fee17.js",
     "static/js/2.9083ebdc.chunk.js",
-    "static/css/main.ae2bf66f.chunk.css",
-    "static/js/main.cac8f5de.chunk.js"
+    "static/css/main.a62fa94c.chunk.css",
+    "static/js/main.58ca94d6.chunk.js"
   ]
 }
