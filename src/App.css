@@ -220,7 +220,7 @@ body {
   margin-right: 30px;
 }
 
-.options-container {
+.option-container {
   display: grid;
   grid-row: 5;
   grid-template-areas: 'a'

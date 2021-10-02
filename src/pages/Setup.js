@@ -152,7 +152,7 @@ class Setup extends Component {
           <img src={ setup } alt="Ranking" className="setup-img-gear" />
           <h2 data-testid="settings-title" className="title-setup">Settings</h2>
         </div>
-        <div className="options-container">
+        <div className="option-container">
           <div className="options-setup-container">
             <label htmlFor="dificultyConfig">
               Difficulty:

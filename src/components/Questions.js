@@ -106,7 +106,7 @@ class Questions extends Component {
     const { incorrectQuest, correctAnswears,
       idTrivia: id } = this.props;
     return (
-      <div className="options-container">
+      <div className="option-container">
         { incorrectQuest[id].map((item, index) => (
           <button
             id="incorrect-answear"
