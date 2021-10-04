@@ -5,15 +5,18 @@ class Loading extends Component {
   render() {
     return (
 
-      <>
-        <div className="loading">
-          Loading Questions...
+      <div className="loading-page">
+        <div className="loading-animation">
+          <div className="loading">
+            Loading Questions...
+          </div>
+          <div className="loading-circle" />
+          <br />
         </div>
-        <div className="loading-circle" />
-        <br />
+
         <BackToLoginGame />
 
-      </>
+      </div>
     );
   }
 }

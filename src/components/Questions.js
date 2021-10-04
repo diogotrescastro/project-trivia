@@ -167,7 +167,7 @@ class Questions extends Component {
                 <button
                   type="button"
                   onClick={ func }
-                  className="btn-neon-red"
+                  className="btn-neon-red btn-next"
                   data-testid="btn-next"
                 >
                   Next

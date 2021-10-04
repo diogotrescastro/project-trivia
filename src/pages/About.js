@@ -9,6 +9,7 @@ class About extends Component {
   constructor(props) {
     super(props);
     this.HomeBtnRender = this.HomeBtnRender.bind(this);
+    this.names = this.names.bind(this);
   }
 
   HomeBtnRender() {
@@ -27,6 +28,28 @@ class About extends Component {
     );
   }
 
+  names() {
+    return (
+      <div className="group-names">
+        <img src={ arrow1 } className="arrow" alt="" />
+        <h4 className="about-name">
+          Camilo Lelis
+        </h4>
+        <h4 className="about-name">
+          Diogo Augusto
+        </h4>
+        <h4 className="about-name">
+          Johnata Pontes
+        </h4>
+        <h4 className="about-name">
+          Marcos Mantovani
+        </h4>
+
+        <img src={ arrow2 } className="arrow" alt="" />
+      </div>
+    );
+  }
+
   render() {
     return (
       <div className="about">
@@ -37,19 +60,7 @@ class About extends Component {
         </div>
         <h3>Olá, somos um grupo de estudantes da escola Trybe! #BeTrybe</h3>
         <h3>Nosso time se compõem pelos seguintes integrantes:</h3>
-        <div className="group-names">
-          <img src={ arrow1 } className="arrow" alt="" />
-          <h4 className="about-name">
-            Camilo Lelis
-            <br />
-            Diogo Augusto
-            <br />
-            Johnata Pontes
-            <br />
-            Marcos Mantovani
-          </h4>
-          <img src={ arrow2 } className="arrow" alt="" />
-        </div>
+        { this.names() }
         <p className="about-description">
           Neste projeto testamos nossos conhecimentos referente a
           Redux e tudo oque vimos em FrontEnd!

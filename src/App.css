@@ -2,6 +2,7 @@
 /* APP */
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
 
 .App-logo {
@@ -39,45 +40,55 @@
 }
 
 @-webkit-keyframes shake {
-  10%, 90% {
+  10%,
+  90% {
     -webkit-transform: translate3d(-1px, 0, 0);
             transform: translate3d(-1px, 0, 0);
   }
-  20%, 80% {
+  20%,
+  80% {
     -webkit-transform: translate3d(2px, 0, 0);
             transform: translate3d(2px, 0, 0);
   }
-  30%, 50%, 70% {
+  30%,
+  50%,
+  70% {
     -webkit-transform: translate3d(-4px, 0, 0);
             transform: translate3d(-4px, 0, 0);
   }
-  40%, 60% {
+  40%,
+  60% {
     -webkit-transform: translate3d(4px, 0, 0);
             transform: translate3d(4px, 0, 0);
   }
 }
 
 @keyframes shake {
-  10%, 90% {
+  10%,
+  90% {
     -webkit-transform: translate3d(-1px, 0, 0);
             transform: translate3d(-1px, 0, 0);
   }
-  20%, 80% {
+  20%,
+  80% {
     -webkit-transform: translate3d(2px, 0, 0);
             transform: translate3d(2px, 0, 0);
   }
-  30%, 50%, 70% {
+  30%,
+  50%,
+  70% {
     -webkit-transform: translate3d(-4px, 0, 0);
             transform: translate3d(-4px, 0, 0);
   }
-  40%, 60% {
+  40%,
+  60% {
     -webkit-transform: translate3d(4px, 0, 0);
             transform: translate3d(4px, 0, 0);
   }
 }
 
 code {
-  font-family: source-code-pro , Menlo , Monaco , Consolas , Courier , monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier, monospace;
 }
 
 /* PÁGINA DE LOGIN */
@@ -85,24 +96,24 @@ code {
 .neon-border-purple {
   border: 0.2rem solid white;
   border-radius: 1rem;
-  -webkit-box-shadow: 0 0 0.2rem white , 0 0 2.8rem #bc13fe , inset 0 0 1.3rem #bc13fe;
-          box-shadow: 0 0 0.2rem white , 0 0 2.8rem #bc13fe , inset 0 0 1.3rem #bc13fe;
+  -webkit-box-shadow: 0 0 0.2rem white, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+          box-shadow: 0 0 0.2rem white, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
   padding: 1em;
 }
 
 .neon-border-red {
   border: 0.2rem solid white;
   border-radius: 1rem;
-  -webkit-box-shadow: 0 0 0.2rem white , 0 0 2.8rem red , inset 0 0 1.3rem red;
-          box-shadow: 0 0 0.2rem white , 0 0 2.8rem red , inset 0 0 1.3rem red;
+  -webkit-box-shadow: 0 0 0.2rem white, 0 0 2.8rem red, inset 0 0 1.3rem red;
+          box-shadow: 0 0 0.2rem white, 0 0 2.8rem red, inset 0 0 1.3rem red;
   padding: 1em;
 }
 
 .neon-border-blue {
   border: 0.2rem solid white;
   border-radius: 1rem;
-  -webkit-box-shadow: 0 0 0.2rem white , 0 0 2.8rem deepskyblue , inset 0 0 1.3rem deepskyblue;
-          box-shadow: 0 0 0.2rem white , 0 0 2.8rem deepskyblue , inset 0 0 1.3rem deepskyblue;
+  -webkit-box-shadow: 0 0 0.2rem white, 0 0 2.8rem deepskyblue, inset 0 0 1.3rem deepskyblue;
+          box-shadow: 0 0 0.2rem white, 0 0 2.8rem deepskyblue, inset 0 0 1.3rem deepskyblue;
   padding: 0.4em;
 }
 
@@ -127,8 +138,8 @@ code {
   background-color: black;
   border: 0.2rem solid white;
   border-radius: 1rem;
-  -webkit-box-shadow: 0 0 0.1rem white , 0 0 2rem #bc13fe , inset 0 0 1rem #bc13fe;
-          box-shadow: 0 0 0.1rem white , 0 0 2rem #bc13fe , inset 0 0 1rem #bc13fe;
+  -webkit-box-shadow: 0 0 0.1rem white, 0 0 2rem #bc13fe, inset 0 0 1rem #bc13fe;
+          box-shadow: 0 0 0.1rem white, 0 0 2rem #bc13fe, inset 0 0 1rem #bc13fe;
   color: #b3cdff;
   font-weight: 800;
   margin: 0.3rem;
@@ -140,8 +151,8 @@ code {
   background-color: black;
   border: 0.2rem solid white;
   border-radius: 1rem;
-  -webkit-box-shadow: 0 0 0.1rem white , 0 0 2rem deepskyblue , inset 0 0 1rem deepskyblue;
-          box-shadow: 0 0 0.1rem white , 0 0 2rem deepskyblue , inset 0 0 1rem deepskyblue;
+  -webkit-box-shadow: 0 0 0.1rem white, 0 0 2rem deepskyblue, inset 0 0 1rem deepskyblue;
+          box-shadow: 0 0 0.1rem white, 0 0 2rem deepskyblue, inset 0 0 1rem deepskyblue;
   color: #b3cdff;
   font-weight: 800;
   margin: 1rem;
@@ -153,8 +164,8 @@ code {
   background-color: black;
   border: 0.2rem solid white;
   border-radius: 1rem;
-  -webkit-box-shadow: 0 0 0.1rem white , 0 0 2rem red , inset 0 0 1rem red;
-          box-shadow: 0 0 0.1rem white , 0 0 2rem red , inset 0 0 1rem red;
+  -webkit-box-shadow: 0 0 0.1rem white, 0 0 2rem red, inset 0 0 1rem red;
+          box-shadow: 0 0 0.1rem white, 0 0 2rem red, inset 0 0 1rem red;
   color: #ffa1d0;
   font-weight: 800;
   margin: 1rem;
@@ -166,7 +177,8 @@ code {
   opacity: 30%;
 }
 
-.inputName, .inputEmail {
+.inputName,
+.inputEmail {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -254,7 +266,25 @@ body {
   width: 100vw;
 }
 
+.loading-page {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+}
+
 .loadind-div {
+  margin-bottom: 30px;
   width: 70%;
 }
 
@@ -273,6 +303,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 50px;
   width: 100vw;
 }
 
@@ -306,8 +337,8 @@ body {
           align-items: center;
   border: 0.2rem solid white;
   border-radius: 1rem;
-  -webkit-box-shadow: 0 0 0.2rem white , 0 0 2.8rem deepskyblue , inset 0 0 1.3rem deepskyblue;
-          box-shadow: 0 0 0.2rem white , 0 0 2.8rem deepskyblue , inset 0 0 1.3rem deepskyblue;
+  -webkit-box-shadow: 0 0 0.2rem white, 0 0 2.8rem deepskyblue, inset 0 0 1.3rem deepskyblue;
+          box-shadow: 0 0 0.2rem white, 0 0 2.8rem deepskyblue, inset 0 0 1.3rem deepskyblue;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -391,23 +422,39 @@ body {
 .neonText {
   -webkit-animation: flicker 1.5s infinite alternate;
           animation: flicker 1.5s infinite alternate;
-  text-shadow: 0 0 7px white , 0 0 10px white , 0 0 102px #0fa , 0 0 151px #0fa;
+  text-shadow: 0 0 7px white, 0 0 10px white, 0 0 102px #0fa, 0 0 151px #0fa;
 }
 
 /* Flickering animation */
 @-webkit-keyframes flicker {
-  0%, 18%, 22%, 25%, 53%, 57%, 100% {
-    text-shadow: 0 0 4px white , 0 0 11px white , 0 0 100px #0fa , 0 0 150px #0fa;
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 4px white, 0 0 11px white, 0 0 100px #0fa, 0 0 150px #0fa;
   }
-  20%, 24%, 55% {
+  20%,
+  24%,
+  55% {
     text-shadow: none;
   }
 }
 @keyframes flicker {
-  0%, 18%, 22%, 25%, 53%, 57%, 100% {
-    text-shadow: 0 0 4px white , 0 0 11px white , 0 0 100px #0fa , 0 0 150px #0fa;
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 4px white, 0 0 11px white, 0 0 100px #0fa, 0 0 150px #0fa;
   }
-  20%, 24%, 55% {
+  20%,
+  24%,
+  55% {
     text-shadow: none;
   }
 }
@@ -469,6 +516,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  max-width: 100%;
 }
 
 .div-play-again {
@@ -680,7 +728,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 20px;
-  margin-left: 55px;
 }
 
 .setup-btn {
@@ -711,6 +758,19 @@ body {
           flex-direction: column;
 }
 
+.loading-animation {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .loading-circle.display {
   visibility: visible;
 }
@@ -724,9 +784,6 @@ body {
   -webkit-box-shadow: 0 0 0.1rem white , 0 0 2rem deeppink , inset 0 0 1rem deeppink;
           box-shadow: 0 0 0.1rem white , 0 0 2rem deeppink , inset 0 0 1rem deeppink;
   height: 2rem;
-  margin-right: 270px;
-  margin-top: 250px;
-  position: absolute;
   width: 2rem;
 }
 
@@ -736,9 +793,6 @@ body {
   font-size: 20px;
   font-weight: 900;
   height: 2rem;
-  margin-right: 20px;
-  margin-top: 260px;
-  position: absolute;
   -webkit-text-decoration: solid;
           text-decoration: solid;
   width: 15rem;
@@ -841,8 +895,13 @@ body {
 .about-name {
   background: linear-gradient(30deg, brown 0%, mediumvioletred 50%, dodgerblue 100%);
   background-clip: text;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-size: x-large;
   font-weight: 600;
+  margin: 20px;
   -webkit-text-fill-color: transparent;
 }
 
@@ -891,5 +950,81 @@ body {
   margin: 1rem;
   padding: 0.4em;
   width: 200px;
+}
+
+@media screen and (max-width: 700px) {
+  .header-about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .group-names {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .group-names img {
+    max-width: 30%;
+  }
+  .group-names h4 {
+    width: 50%;
+  }
+  .options-setup-container label {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 15px;
+  }
+  .setup-back-home {
+    margin-bottom: 30px;
+  }
+  .setup-back-home2 {
+    margin-bottom: 0;
+  }
+  .question-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .question-container .neon-border-question {
+    margin: 0;
+    max-width: 90%;
+    min-width: 90%;
+  }
+  .question-container .neon-border-question img {
+    height: 20px;
+  }
+  .question-container .option-container {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .question-container .btn-next {
+    margin-bottom: 50px;
+  }
+  .feedback-page {
+    min-height: auto;
+  }
+  .user-rank-data .ranking-number {
+    font-size: xx-large;
+  }
+  .user-rank-data img {
+    max-width: 50px;
+  }
+  .user-rank-data .ranking-player-name {
+    font-size: x-large;
+  }
+  .user-rank-data .ranking-score {
+    font-size: xx-large;
+  }
 }
 /*# sourceMappingURL=App.css.map */
